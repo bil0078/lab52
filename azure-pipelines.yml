@@ -22,8 +22,3 @@ jobs:
         echo See https://aka.ms/yaml
         displayName: 'Job2'
     - script: ping 127.0.0.1 -n 100
-
-  - job: job3
-    steps:
-      - script: cat file1
-        displayName: job3
