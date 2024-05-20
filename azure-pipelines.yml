@@ -13,12 +13,12 @@ jobs:
     steps:
     - script: echo Hello, world! Job1
       displayName: 'Job1'
-    - script: ping 127.0.0.1 -n 100
+    - script: ping 127.0.0.1 -n 5
   
   - job: job2
     steps:
     - script: |
         echo Add other tasks to build, test, and deploy your project.
         echo See https://aka.ms/yaml
-        displayName: 'Job2'
-    - script: ping 127.0.0.1 -n 100
+      displayName: 'Job2'
+    - script: ping 127.0.0.1 -n 5
