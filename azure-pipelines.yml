@@ -22,3 +22,59 @@ jobs:
         echo See https://aka.ms/yaml
       displayName: 'Job2'
     - script: ping 127.0.0.1 -n 5
+
+  - job: job3
+    steps:
+    - script: echo Hello, world! Job1
+      displayName: 'Job3'
+    - script: ping 127.0.0.1 -n 5
+  
+  - job: job4
+    steps:
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Job4'
+    - script: ping 127.0.0.1 -n 5
+
+  - job: job5
+    steps:
+    - script: echo Hello, world! Job1
+      displayName: 'Job5'
+    - script: ping 127.0.0.1 -n 5
+  
+  - job: job6
+    steps:
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Job6'
+    - script: ping 127.0.0.1 -n 5
+
+  - job: job7
+    steps:
+    - script: echo Hello, world! Job1
+      displayName: 'Job7'
+    - script: ping 127.0.0.1 -n 5
+  
+  - job: job8
+    steps:
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Job8'
+    - script: ping 127.0.0.1 -n 5
+
+  - job: job9
+    steps:
+    - script: echo Hello, world! Job1
+      displayName: 'Job9'
+    - script: ping 127.0.0.1 -n 5
+  
+  - job: job10
+    steps:
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Job10'
+    - script: ping 127.0.0.1 -n 5
