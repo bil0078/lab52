@@ -25,7 +25,7 @@ jobs:
 
   - job: job3
     steps:
-    - script: echo Hello, world! Job1
+    - script: echo Hello, world! Job3
       displayName: 'Job3'
     - script: ping 127.0.0.1 -n 5
   
